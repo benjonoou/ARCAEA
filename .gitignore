@@ -11,6 +11,8 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+.metadata
+.flutter-plugins
 
 # Environment variables
 .env
@@ -37,6 +39,20 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+
+# Android build files
+**/android/**/build/
+**/android/.gradle/
+**/android/local.properties
+**/android/captures/
+**/android/.externalNativeBuild/
+**/android/.cxx/
+
+# iOS/macOS build files
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Pods/
+**/macos/.symlinks/
 
 # Symbolication related
 app.*.symbols
